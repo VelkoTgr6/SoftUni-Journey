@@ -3,7 +3,7 @@
 ![.NET](https://img.shields.io/badge/.NET-Platform-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-239120)
 ![Status](https://img.shields.io/badge/Status-Learning%20Journey-success)
-![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 A structured learning repository that tracks my progress through the SoftUni C# path, from programming basics to object-oriented design and data access with Entity Framework.
 
@@ -136,6 +136,8 @@ This repository emphasizes:
 ## License
 
 This project is licensed under the terms of `LICENSE.txt`.
+
+Course problem statements and educational materials are provided by SoftUni and remain the property of their respective owners. The source code solutions in this repository are licensed under MIT unless stated otherwise.
 
 ---
 
