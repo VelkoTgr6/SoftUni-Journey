@@ -1,11 +1,11 @@
-# SoftUni C# Software Engineering Journey
+# SoftUni Software Engineering Journey
 
 ![.NET](https://img.shields.io/badge/.NET-Platform-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-239120)
 ![Status](https://img.shields.io/badge/Status-Learning%20Journey-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A structured learning repository that tracks my progress through the SoftUni C# path, from programming basics to object-oriented design and data access with Entity Framework.
+A structured learning repository that tracks my progress through the SoftUni software engineering path, from programming basics to web development, data access, and cloud-related topics.
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@ A structured learning repository that tracks my progress through the SoftUni C# 
 - [Repository Structure](#repository-structure)
 - [How To Use](#how-to-use)
 - [Learning Focus](#learning-focus)
-- [Progress Tracking](#progress-tracking)
 - [Notes](#notes)
 - [License](#license)
 
@@ -77,6 +76,24 @@ Data access and persistence:
 - XML processing
 - Practical data-driven projects
 
+### 6) ASP.NET
+Web application development:
+- HTTP basics and request/response flow
+- ASP.NET Core introduction
+- State management and asynchronous processing
+- Forum and taskboard workshop apps
+
+### 7) ASP.NET Advanced
+Advanced ASP.NET topics and larger application scenarios.
+
+### 8) Web, Data, and Platform Topics
+Supplementary topics that support the main journey:
+- HTML and CSS
+- JavaScript practice
+- SQL fundamentals
+- DevOps basics
+- Containers and cloud concepts
+
 ## Tech Stack
 
 | Category | Technologies |
@@ -98,6 +115,13 @@ SoftUni-Journey/
 |-- C# Advanced/
 |-- C# OOP/
 |-- Entity Framework/
+|-- ASP.NET/
+|-- ASP.NET Advanced/
+|-- HTML & CSS/
+|-- JS Code/
+|-- SQL/
+|-- DevOps/
+|-- ContainersAndCloud/
 |-- LICENSE.txt
 ```
 
@@ -129,7 +153,7 @@ This repository emphasizes:
 
 ## Notes
 
-- Folder names match the original SoftUni course organization.
+- Some folders keep the original SoftUni course naming, while others can be normalized for consistency.
 - Some directories contain multiple attempts or variations of tasks.
 - This is a learning-focused repository, so solutions may prioritize clarity over optimization in early modules.
 
