@@ -4,6 +4,7 @@ obj/
 *.user
 *.suo
 *.docx
+*.zip
 .idea/
 .DS_Store
 Thumbs.db
