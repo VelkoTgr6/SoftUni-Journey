@@ -1,7 +1,7 @@
 # SoftUni Software Engineering Journey
 
 ![.NET](https://img.shields.io/badge/.NET-Platform-blue)
-![Language](https://img.shields.io/badge/Language-C%23-239120)
+![Languages](https://img.shields.io/badge/Languages-C%23%2C%20JavaScript%2C%20HTML%2C%20CSS%2C%20SQL%2C%20YAML%2FPowerShell-239120)
 ![Status](https://img.shields.io/badge/Status-Learning%20Journey-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
@@ -98,7 +98,7 @@ Supplementary topics that support the main journey:
 
 | Category | Technologies |
 |---|---|
-| Language | C# |
+| Languages | C#, JavaScript, HTML, CSS, SQL, YAML, PowerShell |
 | Runtime | .NET |
 | Data Access | ADO.NET, Entity Framework Core |
 | Database | SQL Server (course context) |
