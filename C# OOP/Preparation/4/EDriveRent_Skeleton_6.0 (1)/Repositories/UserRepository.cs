@@ -1,0 +1,41 @@
+﻿using EDriveRent.Models.Contracts;
+using EDriveRent.Repositories.Contracts;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EDriveRent.Repositories
+{
+    public class UserRepository : IRepository<IUser>
+    {
+        private List<IUser> users;
+        private IReadOnlyCollection<IUser> collection;
+        public UserRepository() 
+        {
+            users = new List<IUser>();
+            collection = new List<IUser>();
+        }
+        public void AddModel(IUser model)
+        {
+            users.Add(model);
+        }
+
+        public IUser FindById(string identifier)
+        {
+            return this.users.FirstOrDefault(u=>u.DrivingLicenseNumber==identifier);
+        }
+
+        public IReadOnlyCollection<IUser> GetAll()
+        {
+            return collection= users.AsReadOnly();
+        }
+
+        public bool RemoveById(string identifier)
+        {
+            var user = users.FirstOrDefault(u => u.DrivingLicenseNumber == identifier);
+            return users.Remove(user);
+        }
+    }
+}
