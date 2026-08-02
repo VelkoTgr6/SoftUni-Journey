@@ -1,0 +1,57 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using TaskBoardApp.Data;
+using TaskBoardApp.Models.Home;
+
+namespace TaskBoardApp.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ApplicationDbContext context;
+
+        public HomeController(ApplicationDbContext _context)
+        {
+            context = _context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var taskBoards = context.Boards
+                .Select(b => b.Name)
+                .Distinct();
+
+            var tasksCount=new List<HomeBoardModel>();
+            foreach (var board in taskBoards)
+            {
+                var tasks = context.Tasks
+                    .Where(t => t.Board.Name == board)
+                    .Count();
+
+                tasksCount.Add(new HomeBoardModel()
+                {
+                    BoardName = board,
+                    TasksCount = tasks
+                });
+            }
+
+            var userTasksCount = -1;
+
+            if(User.Identity.IsAuthenticated)
+            {
+                var currentUserId=User.FindFirst(ClaimTypes.NameIdentifier).Value;
+               userTasksCount = context.Tasks
+                     .Where(t => t.OwnerId == currentUserId)
+                     .Count();
+            }
+
+            var homeModel = new HomeViewModel()
+            {
+                AllTasksCount = context.Tasks.Count(),
+                BoardsWithTasksCount = tasksCount,
+                UserTasksCount = userTasksCount
+            };
+
+            return View(homeModel);
+        }
+    }
+}
