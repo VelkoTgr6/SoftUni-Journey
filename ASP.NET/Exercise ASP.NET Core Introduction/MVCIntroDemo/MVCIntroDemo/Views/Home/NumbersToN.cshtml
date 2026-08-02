@@ -1,0 +1,16 @@
+﻿@{
+	ViewBag.Title = "Num 1..." + ViewBag.Count;
+}
+<h2>@ViewBag.Title</h2>
+<ul>
+	@for (int i = 1; i <= ViewBag.Count; i++)
+	{
+		<li>@i</li>
+	}
+	<form asp-action="NumbersToN" method="post">
+		<div class="form-group mb-2">
+		<input type="number" id="count" name="count" class="form-control mr-2" placeholder="Enter a number" required/>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</ul>
