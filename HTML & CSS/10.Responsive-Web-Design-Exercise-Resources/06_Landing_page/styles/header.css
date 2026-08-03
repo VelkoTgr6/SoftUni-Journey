@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 1 100%;
+    justify-content: space-between;
+}
+header p{
+    display: flex;
+}
+.title{
+    color: purple;
+    font-size: 2em;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin: 0 1em;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,107 @@
+
+header,section{
+    margin: 0 10em;
+}
+.need-a-website{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 50%;
+    margin: 2em auto;
+    border: 2px solid red;
+}
+.need-a-website p{
+    display: flex;
+    flex-basis: 70%;
+    border: 2px solid red;
+}
+.need-a-website i{
+    border: 2px solid red;
+}
+.need-a-website h1{
+    border: 2px solid white; 
+    font-size: 2em;
+}
+.need-a-website a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 0.5;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    gap: 1em;
+}
+.team div{
+    flex-grow: 1;
+    flex-basis: 30%;
+}
+.team h2{
+    display: flex;
+    border-bottom: 3px solid black;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 2em;
+}
+.team div img{
+    margin:0 10em;
+    width: 28%;
+    height: 50%;
+    border-radius: 10em;
+}
+.sign-in{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5em;
+    justify-content: center;
+    margin:0;
+    padding: 2em 10em;
+    background-color: purple;
+    color: white;
+}
+.sign-in p{
+    font-size: 2em;
+    flex-basis: 100%;
+    text-align: center;
+}
+.sign-in input{
+    flex-basis: 22%;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+.sign-in a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    padding: 0.3em 1em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+.testonials{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    gap: 1em;
+}
+.testonials div{
+    flex-grow: 1;
+    flex-basis: 30%;
+}
+.testonials p:nth-child(1){
+    display: flex;
+    border-bottom: 3px solid black;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 2em;
+}
+.testonials div img{
+    margin:0 10em;
+    width: 28%;
+    height: 50%;
+    border-radius: 10em;
+}
