@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    position: relative;
+}
+.container:nth-child(1){
+    background: rgb(58,79,180);
+background: linear-gradient(90deg, rgba(58,79,180,1) 23%, rgba(29,253,213,1) 100%, rgba(252,176,69,1) 100%);
+}
+.container:nth-child(2){
+    background: rgb(180,58,149);
+background: linear-gradient(90deg, rgba(180,58,149,1) 23%, rgba(185,139,21,1) 100%, rgba(237,253,29,1) 100%);
+}
+.card{
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+.card img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card i{
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    color: white;
+    
+}
+.card .shadow{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0,0,0,0.5) inset;
+}
+

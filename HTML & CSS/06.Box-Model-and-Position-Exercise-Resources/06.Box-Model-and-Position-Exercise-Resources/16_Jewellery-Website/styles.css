@@ -1,0 +1,11 @@
+.frame{
+    position: absolute;
+    top:40%;
+    left:16%;
+}
+div{
+    position: absolute;
+    top:73.5%;
+    left:12.5em;
+    line-height: 0.1em;
+}
