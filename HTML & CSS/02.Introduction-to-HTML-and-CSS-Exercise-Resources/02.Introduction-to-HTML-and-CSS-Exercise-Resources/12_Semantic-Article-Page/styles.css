@@ -1,0 +1,21 @@
+body{
+    padding: 5px 15px;
+    background-color: #e4e978;
+    
+}
+article{
+    font-style: italic;
+    color: #5c6e91;
+    background-color:#f2f4c0;  
+}
+.comment section{
+    color: #4c7658;
+}
+style{
+    .comment section{
+        color: #4c7658;
+    }
+}
+.comment section{
+    color: #7f0b0b;
+}
