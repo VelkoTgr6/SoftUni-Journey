@@ -1,0 +1,48 @@
+@media (max-width: 600px){
+    .navigation-max-width{
+        padding-top: 12px;
+        padding-left: 12px;
+    }
+    .navigation-max-width{
+        padding-bottom: 12px;
+    }
+    .navigation-header{
+        position: static;
+    }
+    .navigation-nav{
+        display: none;
+    }
+    .home-text{
+        display: none;
+    }
+    .home-portofolio {
+        padding-top: 50px;
+    }
+    .home-tab-selector-cards-container{
+        display: block;
+    }
+    .portofolio-card-speaker-card{
+        margin-bottom: 2.5em;
+    }
+    .section-container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .max-content-container{
+        display: block;
+    }
+    .home-image-container{
+        display: none;
+    }
+    .home-text10{
+        margin-right: 30px;
+    }
+    .home-top-part,
+    .home-links-container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .button{
+        padding: 1em 1.5em;
+    }
+}

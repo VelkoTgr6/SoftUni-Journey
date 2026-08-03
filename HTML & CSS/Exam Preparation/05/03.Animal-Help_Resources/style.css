@@ -1,0 +1,256 @@
+@import url(fa/css/all.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 12px/1.5 Arial, sans-serif;
+}
+header{
+    border-bottom:2px solid lightgray ;
+    padding: 1em;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-weight: bold;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.header-container a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+.middle-article{
+    margin: 2em 0;
+}
+.section-header{
+    background-color: #85DCFF;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    width: 35%;
+    max-width: 9000px;
+    margin: 0 auto;
+}
+.section-article h3{
+    font-size: 1.7em;
+}
+.article-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.article-buttons a{
+    padding: 0.5em 4em;
+    text-decoration: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0.5em;
+}
+.article-buttons a:nth-child(1){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.article-buttons a:nth-child(2){
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.section-header img{
+    margin-right: 26em;
+}
+.title-middle{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+.title-middle h4{
+    margin-bottom: 2em;
+}
+.article-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2em;
+}
+.article-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.article-section div p:first-of-type
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.fa i{
+    font-size: 10em;
+    color: #85DCFF;
+    padding: 0;
+}
+.tasks{
+    background-color: #85DCFF;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+}
+.title-tasks{
+    text-align: center;
+    font-size: 1.5em;
+}
+.tasks-class{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.tasks-button{
+    text-align: center;
+}
+.task01{
+    max-width: 17%;
+}
+.task01 p{
+    margin: 2em 1em;
+    font-weight: bold;
+}
+.task01 p i{
+    padding:0 0.5em;
+}
+
+.tasks-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+.tasks-button a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1em 5em;
+    border-radius: 0.5em;
+}
+.animals{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.animals-title{
+    text-align: center;
+}
+.animals-title h1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 0.5em;
+}
+.animals-title p{
+    font-size: 1.2em;
+}
+.animals-images{
+    margin: 1em 0;
+    display: flex;
+    gap: 2.5em;
+}
+.animals-images img{
+    height: auto;
+    width: 20em;
+}
+.work-articile{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.work-title h3{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+}
+.inner-section{
+    border: 2px solid lightgray;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+.inner-section h5{
+    background-color: #85DCFF;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.inner-section p{
+    padding: 1.5em 1.5em;
+}
+.bottom-section{
+    display: flex;
+    gap: 5em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    gap: 2.5em;
+}
+.subscribe h2{
+    font-size: 2em;
+}
+form input{
+    padding-left: 1em;
+    padding-right: 3.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 2px solid lightgray;
+    border-radius: 0.5em;
+}
+.subscribe a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1em 3.5em;
+    border-radius: 0.5em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.social-media{
+    display: flex;
+    gap: 1em;
+    font-size: 2em;
+}
+.social-media i{
+    color: black;
+}
+.copy p{
+    font-weight: bold;
+}

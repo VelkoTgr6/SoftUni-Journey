@@ -1,0 +1,70 @@
+@import url(fa/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font:14px/1.5 Montserrat;
+}
+body{
+    background-color: #F6E0B5;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.pictures-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 65%;
+    justify-content: space-around;
+    gap: 1em;
+    
+
+    /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+}
+.picture{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 5em black;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    background-color: #66545E;
+    color: white;
+    border: 1px solid black;
+}
+.picture img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+.picture p{
+    padding: 0 0.5em;
+}
+.picture:nth-child(1){
+    z-index: 1;
+}
+.picture:nth-child(2){
+    z-index: 2;
+}
+main{
+    padding-top: 3em;
+    display: flex;
+    gap: 1em;
+}
+.categories-section{
+    max-width: 20%;
+}
+.categories-section p{
+    padding: 0.4em 0.5em;
+    font-size: 1.1em;
+    color: #66545E;
+}
+.categories-section i{
+    margin-right: 0.5em;
+}

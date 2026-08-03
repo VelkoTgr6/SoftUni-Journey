@@ -1,0 +1,158 @@
+@import url(fa/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Poppins;
+    line-height: 1.5;
+}
+header{
+    padding-top: 1em;
+    max-width: none;
+    height: 38em;
+    padding-bottom: 15em;
+    background-image: url(images/landing-photo.jpg);
+    background-size: 100%;
+    background-position:center -200px;
+}
+.book{
+    padding-top: 8em;
+    padding-bottom: 2em;
+}
+
+header .book,
+.navigation-header,
+.header-article,
+.button
+{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.book h1{
+    font-size: 3.5em;
+}
+.book p{
+    font-size: 1.8em;
+}
+header .button a{
+    display: inline-block;
+    background-color: #370511;
+    color: white;
+    padding: 0.2em 1.5em;
+    border-radius: 1em;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.navigation-header{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-header h2{
+    font-weight: 10em;
+    font-size: 1.7em;
+}
+.navigation-header nav ul{
+    display: flex;
+    list-style: none;
+    gap:2em;
+}
+
+.navigation-header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.navigation-header nav ul li:last-of-type a{
+    background-color: #370511;
+    color: white;
+    padding: 0.2em 1.5em;
+    border-radius: 1em;
+    font-size: 0.9em;
+}
+.header-article{
+    padding-bottom: 1.5em;
+}
+main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.title-main{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 1.5em;
+}
+.title-main h3{
+    font-size: 2em;
+}
+.locations-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.location{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 13em;
+    
+}
+.location img{
+    width: 100%; /* Make the image width 100% of the container */
+    height: 100%; /* Make the image height 100% of the container */
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+.location .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.location .text{
+    text-align: start;
+}
+
+.location .text p{
+    font-size: small;
+    margin: 1em 0;
+}
+
+.location .text a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    border: 2px solid #CDC0C3;
+    margin: 0.5em 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3em 0;
+}
+.title-footer h2{
+    font-size: 2em;
+}
+footer .title-footer,
+.section-footer{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+footer p{
+    line-height: 2.5;
+    font-size: 0.9em;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.empty-tag{
+    margin: 6em 0;
+}

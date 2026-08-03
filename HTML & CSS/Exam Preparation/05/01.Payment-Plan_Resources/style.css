@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Inter;
+}
+body{
+    background-image:url(/01.Payment-Plan_Resources/image/background.jpg);
+    background-size: 100%;
+    background-position:center -700px;
+}
+.body-section{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+.basic,
+.standart,
+.premium{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5em;
+    max-width: 25%;
+
+}
+.price{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+.small-text{
+    font-size: small;
+    color: rgb(158, 158, 158);
+}
+.price p:nth-child(2){
+    font-size: 3em;
+    font-weight: bold;
+    align-items: flex-end;
+    line-height: 0.9;
+}
+.text p {
+    margin-bottom: 0.7em;
+}
+.button a{
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+}
+.button{
+    display: flex;
+    width: 38%;
+    align-items: flex-end;
+}
+.premium {
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Add border for visualization */
+    height: 29em;
+  }
+  
+  .premium .inner {
+    display: flex;
+    flex-direction: column; /* Arrange inner elements vertically */
+  }
+  
+  .premium .text p {
+    margin: 5px 0; /* Add margin to text paragraphs for spacing */
+  }
+  .basic {
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Add border for visualization */
+    height: 28em;
+  }
+  
+  .basic .inner {
+    display: flex;
+    flex-direction: column; /* Arrange inner elements vertically */
+  }
+  

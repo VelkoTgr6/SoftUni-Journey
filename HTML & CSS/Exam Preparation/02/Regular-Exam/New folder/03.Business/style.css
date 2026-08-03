@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'PT Serif';
+    font-style: normal;
+    line-height: 1.5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    padding-top: 1em;
+    max-width: none;
+    padding-bottom: 15em;
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-position:center -20px;
+
+}
+.header-navigation{
+    margin: 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.header-navigation .logo{
+    width: 5.5em;
+    height: auto;
+}
+.header-navigation nav ul{
+    display: flex;
+    list-style: none;
+}
+.header-navigation nav ul li a{
+    padding: 0em 1em;
+    text-decoration: none;
+    color: white;
+}
+.header-article{
+    margin-top: 3em;
+    margin-left: 200px;
+    width: 35%;
+    color: white;
+    font-weight: lighter;
+}
+.header-article p{
+    margin-top: 1em;
+}
+.background-image {
+    background-color: red;
+}
+.background-image {
+    width: 100%;
+    height: auto;
+}
+main .information{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 0;
+    flex-basis: 30%;
+}
+main .information .aims,
+main .information .objectives{
+    flex-basis: 44%;
+}
+
+main .information .button{
+    margin: 2em 0;
+}
+main .information .button a{
+    padding: 0.5em;
+    text-decoration: none;
+    color: #BD9781;
+    border: 2px solid #BD9781;
+}
+main .partners,
+main .sponsors {
+    margin: 3em 0;
+    text-align: center;
+}
+main .partners h2,
+main .sponsors h2{
+    color: #BD9781;
+}
+main .sponsor-images{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+main .sponsor-images .image{
+    width: 120px; /* Adjust the width and height of the circle */
+    height: 120px;
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ccc; /* Gray background color */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    overflow: hidden;
+}
+main .sponsor-images .image img{
+    padding: 1em;
+    max-width: 100%; /* Ensure the image fits inside the circle */
+    max-height: 100%;
+}
+footer .contacts{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #171720;
+    color: #98999f;
+}
+footer .contacts h3{
+    margin: 1.5em 0;
+    color: white;
+}
+.copy p{
+    padding:0.5em 200px;
+    background-color: #171720;
+    color: #98999f;
+}
+footer hr{
+    border-color: #212129;
+}
