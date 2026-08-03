@@ -1,0 +1,52 @@
+@media (max-width: 600px){
+    header{
+        padding-bottom: 4em;
+    }
+
+    header nav{
+        align-items: center;
+        gap: 3em;
+        margin: 0 0.5em;
+    }
+    .title-header{
+        margin-top: 5em;
+        gap: 3em;
+    }
+
+    .title-header h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .title-header p{
+        max-width: 80%;
+    }
+    .article-sub p{
+        margin: 0 auto;
+    }
+    .article-sub h2{
+        margin: 0 auto;
+        font-size: 2em;
+        width: 80%;
+        text-align: center;
+    }
+    .text-support{
+        width: 50%;
+    }
+    .main-section{
+        padding-top: 0;
+    }
+    .image-section{
+        max-width: 100%;
+    }
+    .image-section p,
+    .button{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .bottom-section-article{
+        max-width: 80%;
+    }
+    .footer-text{
+        max-width: 100%;
+    }
+}
