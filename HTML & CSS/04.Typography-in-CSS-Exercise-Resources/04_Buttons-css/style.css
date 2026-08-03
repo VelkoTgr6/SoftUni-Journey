@@ -1,0 +1,44 @@
+body{
+    background-color:white(rgb(251,251,251));
+    font-family: FontAwesome;
+    @import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+}
+h2{
+    font-weight: 500;
+}
+button{
+    margin-right: 8px;
+    margin-bottom: 20px;
+    
+}
+.normal button{
+  width:8em;
+  height: 5ex;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 100px;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+.fill {
+    width:8em;
+    height: 5ex;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 100px;
+    font-size: 0.6em;
+    font-weight: bold;
+    color:rgb(251,251,251) ;
+    cursor: pointer;
+}
+.fill.hover:hover{
+    background-color:rgb(0, 102, 0);
+    color:rgb(251,251,251) ;
+}
+button.hover:hover
+{
+    border-color: rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+}
+
